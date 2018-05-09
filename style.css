@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200.300.400,500,600,700|Exo:100,200.300.400,500,600,700');
+
+
+
+
+    
+
+
+/********* h1 h2 h3 h4 h5 ****/
+
+h4 {
+    text-align: center;
+    padding: 0px;
+    margin-top: 80px;
+    font-family: "Exo", sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    color: #afafaf;
+    
+}
+
+h3 {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    letter-spacing: 0.3em;
+    color: #afafaf;
+}
+
+
+h1  {
+    text-align: center;
+    padding: 0px;
+    margin-top: 20px;
+    font-family: "Exo", sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    color: #afafaf;
+}
+
+h1 a:hover{
+    text-decoration: none;
+}
+
+/******** hr rule ******/
+
+.divider{
+    width: 200px;
+    height: 2px;
+    background-color: #E32233;
+}
+
+/********* p ***********/
+
+p{
+    text-align: right;
+    margin-bottom: 40px;
+   
+}
+
+/********* header ************/
+
+
+.main-background{
+    max-height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   }
+   
+.wrapper{
+    margin-top: 30px;
+     background-color: #fafafa;
+}
+
+
+    
+.center {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-left: 25%;
+    padding-right: 25%;
+    } 
+
+#nav{
+    margin: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+    color: #afafaf;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    }
+    
+#nav-media{
+    margin: 5px;
+    padding-left: 5px;
+    color: #afafaf;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.5em;
+    text-decoration: none;
+    }
+    
+.active{
+    font-weight: bold;
+}
+    
+
+
+
+/****** section *******/
+
+.newsletter-background{
+    min-height: 600px;
+    background: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+
+.bio-image{
+    height: 180px;
+    width: 180px;
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.box-style{
+    box-shadow: 10px 10px 10px  #777777;
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+
+.description{
+    padding-top: 45px;
+    margin: 10px;
+    margin-left: 45px;
+    
+}
+
+.heading{
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 40%;
+    
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+
+
+
+/****** footer ********/
+
+.nav-footer{
+    margin-top: 10px; 
+    padding: 10px;
+    color: #afafaf;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    letter-spacing: 0.3em;
+    line-height: 2em;
+    }
+
+footer{
+    
+   min-height: 260px;
+    margin: 10px;
+    background-color: #eaeaea;
+   
+}
+
+ul {
+    list-style-type: none;
+    }
+
+#nav .li{
+    padding-left: 45px;
+    
+}
+
+#nav li a:hover{
+    text-decoration: none;
+    color: #acacac;
+}
+
+.social-media li a i{
+    font-size: 25px;
+    color: #E32233;
+    border-radius: 50%;
+    font-weight: bold;
+    }
+    
+.quick-links li a{
+     color: #E32233;
+}
+
+/******** media queries *******/
+
+
+/* iPhone (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px)  {
+.phone{
+   
+    max-width: 100%;
+    padding: 0;
+    height: auto;
+    border: 0px;
+    font-size: 16px;
+    background-size: cover;
+    }
+
+}
+
+/* iPhone5 (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px)  {
+.phone5{
+   
+    max-width: 100%;
+    padding: 0;
+    height: auto;
+    border: 0px;
+    font-size: 16px;
+    background-size: cover;
+    }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+.tablet{
+    
+   max-width: 100%;
+   height: auto;
+   border: 0px;
+   background-size: cover;
+  
+   
+    }
+}
+
+/* s7 (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 414px) and (max-device-width : 732px)  {
+.s7{
+  
+    max-width: 100%;
+    height: auto;
+    border: 0px;
+    }
+
+}
+
+/* s5 (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px)  {
+.s5{
+    
+    max-width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0px;
+    }
+
+}
+
