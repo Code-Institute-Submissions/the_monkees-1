@@ -16,23 +16,21 @@
         option of booking the band for your own personal occasion is also included in this site.
     
     
-    Tech/Framework:
+    Tech/Libraries:
     
         For this project I designed a wireframe mockup using pen and paper of how the site would
         function and how a user would interact with it.
         
         I used bootstrap as a framework in order to give structure to the layout.
         I also used font awesome libraries in order to display fonts to advertise social media sites
-    
-    
-    Technical difficulties:
-    
-        My biggest challenge was to make thie website as responsive as possible. I struggled in 
-        this area but and pleased with the final result although the desktop version has suffered
-        in order to prioritise the mobile compatability. The different phone screens were tricky to
-        setup. I found that the Ipad and Ipad pro were the easiest to design for.
         
-        Also my contact page opns my Gmail on my Phone and creates a new message but on my computer its does not open as i do not have a local outlook(thunderbird in my case) set up.
+    Testing:
+    
+        mobile/destop:
+        
+        For this project I used chrome DevTools in order to see how each page was displaying on different devices from desktop
+        all the way down to smartphone. DevTools was particularily useful for seeing changes in real time.
+    
     
     code resourses used:
     
